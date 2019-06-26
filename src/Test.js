@@ -1,9 +1,10 @@
 import React from 'react';
 
 const user = {
-  fname: "Master",
-  lname: "Coder",
+  fname: "Foo",
+  lname: "Bar",
 };
+
 const element = <h1>Hello, {formatName(user)}!</h1>
 
 function formatName(user) {

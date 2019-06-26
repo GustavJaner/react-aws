@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class Toggle extends React.Component {
+class Toggle extends Component {
   constructor(props) {
     super(props);
     this.state = { isToggleOn: true };
@@ -32,7 +32,7 @@ class Toggle extends React.Component {
 }
 
 function Humma(props) {
-  if (props.boll == true)
+  if (props.boll === true)
     return <h4>HUMMA</h4>;
   else
     return <h4>MUMMA</h4>;

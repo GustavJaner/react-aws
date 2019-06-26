@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 // *** EXPORT Component ***    (Class component)
 class Clock extends React.Component {
